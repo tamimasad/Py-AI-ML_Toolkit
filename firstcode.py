@@ -69,11 +69,13 @@ else:
 
 for number in range(1, 3, 2):  # in range(start, end, increment)
     print("Nabila")  # Nabila will be printed only once
-    
+
 # For without range() function
 
 for i in range(1, 6):
-    print(i) # i will print from 1 to 5. In range() the first one is the starting number and end is ending number_1
+    print(
+        i
+    )  # i will print from 1 to 5. In range() the first one is the starting number and end is ending number_1
 
 # Nested Loops
 
@@ -111,3 +113,20 @@ passname(name_1, name_2)
 x = int(input("Enter a number to get Fibonacci series up to that number : "))
 fibo.fib(x)  # Calling the fib() function from fibo.py module
 fibo.fib2(x)  # Calling the fib2() function from fibo.py module
+
+# The match statement
+
+
+def error_type(error):
+    match error:
+        case 404:
+            print("Not Found")
+        case 101:
+            print("Not responding")
+        case _:
+            print("Unknown error")
+
+
+error = input("Enter an error code : ")
+error_type(int(error))
+
