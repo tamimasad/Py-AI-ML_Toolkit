@@ -130,3 +130,11 @@ def error_type(error):
 error = input("Enter an error code : ")
 error_type(int(error))
 
+# List as Stack
+
+fruit = []
+f_n = int(input("Enter the number of fruit varities: "))
+for i in range(f_n):
+    fruit_name = input("Enter the name of fruits: ")
+    fruit.append(fruit_name)  # Adding fruit names to the list 
+print(fruit) 
