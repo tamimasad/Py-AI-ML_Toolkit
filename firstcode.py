@@ -1,5 +1,8 @@
 import math  # Importing math module to do math realted complex calculations
 import fibo  # Importing fibo.py module to use its functions
+from collections import (
+    deque,
+)  # Importing deque from collections module to use it as a queue
 
 print("Tamim Asad")
 name = "Nabila Afzal"
@@ -136,6 +139,7 @@ fruit = []
 f_n = int(input("Enter the number of fruit varities: "))
 for i in range(f_n):
     fruit_name = input("Enter the name of fruits: ")
-    fruit.append(fruit_name)  # Adding fruit names to the list
+    fruit.append(fruit_name)  # Adding fruit names to the list 
 for i in range(f_n):
-    print(fruit.pop())  # Popping the fruit names from the list in the order of a stack
+    print(fruit.pop())  # Removing fruit names from the list in LIFO order
+     
