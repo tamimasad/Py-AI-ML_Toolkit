@@ -136,5 +136,6 @@ fruit = []
 f_n = int(input("Enter the number of fruit varities: "))
 for i in range(f_n):
     fruit_name = input("Enter the name of fruits: ")
-    fruit.append(fruit_name)  # Adding fruit names to the list 
-print(fruit) 
+    fruit.append(fruit_name)  # Adding fruit names to the list
+for i in range(f_n):
+    print(fruit.pop())  # Popping the fruit names from the list in the order of a stack
