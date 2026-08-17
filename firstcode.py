@@ -149,3 +149,5 @@ s_n = int(input("Enter the number of students: "))
 for i in range(s_n):
     student_name = input("Enter the name of students: ")
     st_name.append(student_name)  # Adding student names to the list
+for i in range(s_n):
+    print(st_name.popleft())  # Printing students names from the list in FIFO order
