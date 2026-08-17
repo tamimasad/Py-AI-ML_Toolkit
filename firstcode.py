@@ -144,6 +144,7 @@ for i in range(f_n):
     print(fruit.pop())  # Removing fruit names from the list in LIFO order
 
 # List as Queue
+
 st_name = deque([])  # Using deque in a list to use it as a queue
 s_n = int(input("Enter the number of students: "))
 for i in range(s_n):
