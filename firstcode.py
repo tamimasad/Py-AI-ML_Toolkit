@@ -2,7 +2,7 @@ import math  # Importing math module to do math realted complex calculations
 import fibo  # Importing fibo.py module to use its functions
 from collections import (
     deque,
-)  # Importing deque from collections module to use it as a queue
+)  # Importing deque from collections module to use lists as a queue
 
 print("Tamim Asad")
 name = "Nabila Afzal"
@@ -152,3 +152,12 @@ for i in range(s_n):
     st_name.append(student_name)  # Adding student names to the list
 for i in range(s_n):
     print(st_name.popleft())  # Printing students names from the list in FIFO order
+
+# Tupples
+
+tp_1 = 10, 2231, 'Name' # Can consists numbers, strings or both. Seperated by commas.
+print(tp_1[0])
+tp_2 = tp_1, (0, 1, 'CSE') # Nested tupples
+print(f"The second element of the nested tupples is : {tp_2[1]}") # Accessing the second element of the nested tupples
+
+
