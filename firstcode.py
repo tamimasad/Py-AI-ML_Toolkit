@@ -131,7 +131,7 @@ fibo.fib2(x)  # Calling the fib2() function from fibo.py module
 date_time: str = (
     show_datetime.date_time()
 )  # Calling the date_time() function from show_datetime.py module
-print(f"The current date and time is : {date_time}")   
+print(f"The current date and time is : {date_time}")
 
 # The match statement
 
@@ -178,3 +178,30 @@ tp_2 = tp_1, (0, 1, "CSE")  # Nested tupples
 print(
     f"The second element of the nested tupples is : {tp_2[1]}"
 )  # Accessing the second element of the nested tupples
+
+# Classes
+
+
+class Student:  # A class name always starts with a capital letter.
+    def __init__(
+        self, name, age, roll_no
+    ):  # Function to initialize the class attributes
+        self.name = name
+        self.age = age
+        self.roll_no = roll_no
+
+    def display(self):  # Methods under a class
+        print(f"Name: {self.name}, Age: {self.age}, ID: {self.roll_no}")
+
+    def semester(
+        self,
+        sm: int,  # Methods also can have parameters. Here sm is a parameter of type int
+    ) -> None:  # Method to display the semester of the student
+        print(f"{self.name} is in semester {sm}")
+
+
+student_1: Student = Student(
+    "Tamim", 24, 2231246
+)  # A object of the class Student is created and assigned to the variable student_1
+student_1.display()
+student_1.semester(11)
