@@ -5,6 +5,9 @@ from collections import (
 )  # Importing deque from collections module to use lists as a queue
 from typing import Final  # Importing Final from typing module to use it as a constant
 import show_datetime  # Importing show_datetime.py module to use its functions
+from typing import (
+    Self,
+)  # Importing Self from typing module to use it as a type hint for the class methods
 
 print("Tamim Asad")
 name = "Nabila Afzal"
@@ -206,12 +209,24 @@ class Student:  # A class name always starts with a capital letter.
     ) -> str:
         return f"Name: {self.name}, Age: {self.age}, ID: {self.roll_no}"
 
+    def __add__(
+        self, other: Self
+    ) -> (
+        str
+    ):  # A dundere method to add two objects of the class Student and return a string representation of the friendship between them
+        return f"{self.name} and {other.name} are partners"
+
 
 student_1: Student = Student(
     "Tamim", 24, 2231246
 )  # A object of the class Student is created and assigned to the variable student_1
 student_1.display()
-student_1.semester(11)
+student_1.semester(11)  # Calling the method with parameter
 print(
     student_1
 )  # Printing the string representation of the object student_1 using the __str() dundere method
+student_2: Student = Student("Nabila", 23, 2233548)
+student_2.display()
+print(
+    student_1 + student_2
+)  # Printing the string representation of the friendship between student_1 and student_2 using the __add() dundere method
