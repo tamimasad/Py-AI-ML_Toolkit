@@ -191,7 +191,9 @@ class Student:  # A class name always starts with a capital letter.
         self.roll_no = roll_no
 
     def display(self):  # Methods under a class
-        print(f"Name: {self.name}, Age: {self.age}, ID: {self.roll_no}")
+        print(
+            f"Attributes of the Student, Name: {self.name}, Age: {self.age}, ID: {self.roll_no}"
+        )
 
     def semester(
         self,
@@ -199,9 +201,17 @@ class Student:  # A class name always starts with a capital letter.
     ) -> None:  # Method to display the semester of the student
         print(f"{self.name} is in semester {sm}")
 
+    def __str__(  # A Dundere method to return the string representation of the object
+        self,
+    ) -> str:
+        return f"Name: {self.name}, Age: {self.age}, ID: {self.roll_no}"
+
 
 student_1: Student = Student(
     "Tamim", 24, 2231246
 )  # A object of the class Student is created and assigned to the variable student_1
 student_1.display()
 student_1.semester(11)
+print(
+    student_1
+)  # Printing the string representation of the object student_1 using the __str() dundere method
