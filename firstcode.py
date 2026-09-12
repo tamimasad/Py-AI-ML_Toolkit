@@ -3,6 +3,8 @@ import fibo  # Importing fibo.py module to use its functions
 from collections import (
     deque,
 )  # Importing deque from collections module to use lists as a queue
+from typing import Final  # Importing Final from typing module to use it as a constant
+import show_datetime  # Importing show_datetime.py module to use its functions
 
 print("Tamim Asad")
 name = "Nabila Afzal"
@@ -32,6 +34,13 @@ print(x * y)
 print(x / y)
 print(y // x)  # To get an integer from a division
 print(y**x)  # To get y to the power x
+
+# Using Constants
+
+THE_NAME: Final[str] = "Tamim Asad Aungan"
+print(THE_NAME)
+# THE_NAME = "Nabila Afzal"  # This will give a warning as THE_NAME is a constant and can't be changed
+print(THE_NAME)  # But it will still print the new value of THE_NAME
 
 # Number Functions
 
@@ -117,6 +126,13 @@ x = int(input("Enter a number to get Fibonacci series up to that number : "))
 fibo.fib(x)  # Calling the fib() function from fibo.py module
 fibo.fib2(x)  # Calling the fib2() function from fibo.py module
 
+# Using the import from show_datetime.py
+
+date_time: str = (
+    show_datetime.date_time()
+)  # Calling the date_time() function from show_datetime.py module
+print(f"The current date and time is : {date_time}")   
+
 # The match statement
 
 
@@ -145,7 +161,7 @@ for i in range(f_n):
 
 # List as Queue
 
-st_name = deque([])  # Using deque in a list to use it as a queue
+st_name: deque = deque([])  # Using deque in a list to use it as a queue
 s_n = int(input("Enter the number of students: "))
 for i in range(s_n):
     student_name = input("Enter the name of students: ")
@@ -155,9 +171,10 @@ for i in range(s_n):
 
 # Tupples
 
-tp_1 = 10, 2231, 'Name' # Can consists numbers, strings or both. Seperated by commas.
+print("The result of tuples: ")
+tp_1 = 10, 2231, "Name"  # Can consists numbers, strings or both. Seperated by commas.
 print(tp_1[0])
-tp_2 = tp_1, (0, 1, 'CSE') # Nested tupples
-print(f"The second element of the nested tupples is : {tp_2[1]}") # Accessing the second element of the nested tupples
-
-
+tp_2 = tp_1, (0, 1, "CSE")  # Nested tupples
+print(
+    f"The second element of the nested tupples is : {tp_2[1]}"
+)  # Accessing the second element of the nested tupples
