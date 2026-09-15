@@ -1,4 +1,4 @@
-# 🚀 PyAIML_Toolkit
+# 🚀 Py-AI-ML_Toolkit
 
 > **A growing collection of reusable Python modules, AI/ML utilities, data preprocessing techniques, and practical machine learning implementations.**
 
@@ -7,17 +7,17 @@
 [![AI](https://img.shields.io/badge/Artificial%20Intelligence-AI-purple?style=for-the-badge)](https://en.wikipedia.org/wiki/Artificial_intelligence)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-**PyAIML_Toolkit** is a personal and continuously evolving repository of **Python-based tools, reusable modules, AI/ML implementations, and data-processing utilities** designed to make common machine learning workflows easier to understand, reuse, and experiment with.
+**Py-AI-ML_Toolkit** is a personal and continuously evolving repository of **Python-based tools, reusable modules, AI/ML implementations, and data-processing utilities** designed to make common machine learning workflows easier to understand, reuse, and experiment with.
 
 Whether you're learning ML fundamentals, preparing datasets, experimenting with algorithms, or building AI projects, this repository brings practical implementations together in one place.
 
 ---
 
-## 🎯 Why PyAIML_Toolkit?
+## 🎯 Why Py-AI-ML_Toolkit?
 
 Machine learning projects often require the same preprocessing techniques, mathematical operations, utility functions, and model-related workflows again and again.
 
-**PyAIML_Toolkit** aims to turn those repeated implementations into a collection of **organized, reusable, and understandable tools**.
+**Py-AI-ML_Toolkit** aims to turn those repeated implementations into a collection of **organized, reusable, and understandable tools**.
 
 ### 💡 Core Philosophy
 
@@ -93,7 +93,7 @@ Implementations and experiments related to reducing overfitting and improving mo
 The project is organized to keep different areas of experimentation and reusable code separated.
 
 ```text
-PyAIML_Toolkit/
+Py-AI-ML_Toolkit/
 │
 ├── python_modules/
 │   ├── utilities/
@@ -218,13 +218,13 @@ The toolkit is primarily built around the Python data and machine learning ecosy
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/PyAIML_Toolkit.git
+git clone https://github.com/<your-username>/Py-AI-ML_Toolkit.git
 ```
 
 ### 2️⃣ Navigate to the Project
 
 ```bash
-cd PyAIML_Toolkit
+cd Py-AI-ML_Toolkit
 ```
 
 ### 3️⃣ Create a Virtual Environment
@@ -279,7 +279,7 @@ This makes the repository useful not only as a toolkit, but also as a **learning
 
 ## 🗺️ Roadmap
 
-PyAIML_Toolkit is an evolving project.
+Py-AI-ML_Toolkit is an evolving project.
 
 ### ✅ Current Focus
 
@@ -336,7 +336,7 @@ git push origin feature/new-module
 
 ## ⭐ Support the Project
 
-If you find **PyAIML_Toolkit** useful for learning, experimentation, or your own projects:
+If you find **Py-AI-ML_Toolkit** useful for learning, experimentation, or your own projects:
 
 **⭐ Star the repository** and follow its development.
 
@@ -354,7 +354,7 @@ See the [`LICENSE`](LICENSE) file for details.
 
 ## 👨‍💻 About
 
-**PyAIML_Toolkit** is developed as a continuously evolving collection of practical implementations and experiments in:
+**Py-AI-ML_Toolkit** is developed as a continuously evolving collection of practical implementations and experiments in:
 
 > **Python • Artificial Intelligence • Machine Learning • Data Science**
 
@@ -366,6 +366,6 @@ The long-term goal is to transform the repository into a **well-organized, reusa
 
 ### 🚀 Learn. Build. Experiment. Reuse.
 
-**PyAIML_Toolkit**
+**Py-AI-ML_Toolkit**
 
 </div>
