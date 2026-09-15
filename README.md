@@ -114,7 +114,7 @@ Py-AI-ML_Toolkit/
 ├── datasets/
 │   └── ...
 │
-├── examples/
+├── test/
 │   └── ...
 │
 ├── requirements.txt

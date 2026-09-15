@@ -2,7 +2,7 @@ import pandas as pd
 from data_preprocessing.cleaning.clean_data import clean_data
 
 # Load the dataset
-df = pd.read_csv("test/test_dataset.csv")
+df = pd.read_csv("datasets/test_dataset.csv")
 
 # 2. Display the original dataset
 
@@ -32,6 +32,6 @@ print(cleaned_df.shape)
 
 # 5. Save the cleaned dataset
 
-cleaned_df.to_csv("test/cleaned_dataset.csv", index=False)
+cleaned_df.to_csv("datasets/cleaned_dataset.csv", index=False)
 
 print("\nCleaned dataset saved successfully.")
