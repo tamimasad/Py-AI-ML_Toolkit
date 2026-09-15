@@ -1,0 +1,8 @@
+student_id,name,age,cgpa,city,graduated,income
+1,Tamim,24.0,3.2,Dhaka,Yes,1000.0
+2,Nabila,21.0,3.5,Dhaka,No,1200.0
+3,Abrar,23.0,3.2,Chittagong,Yes,1100.0
+4,Rahim,25.0,3.1,Dhaka,No,900.0
+5,Sadia,22.0,3.8,Sylhet,Yes,1500.0
+8,Rafi,26.0,3.0,Khulna,No,950.0
+9,Mim,21.0,3.2,Dhaka,Yes,1050.0
