@@ -1,7 +1,7 @@
 import pandas as pd
 from data_preprocessing.cleaning.clean_data import clean_data
 
-# Load the dataset
+# 1. Load the dataset
 df = pd.read_csv("datasets/test_dataset.csv")
 
 # 2. Display the original dataset
